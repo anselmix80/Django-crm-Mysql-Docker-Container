@@ -18,5 +18,5 @@ Inside the docker folder run `./start_dev.sh` shell command, this include:
 - Setup all data inside DB
 - Start the application Django-CRM
 
-![Pulling MySQL image](/img/Pulling.png "Pulling")
+![docker running](/img/docker_running.png "running")
   
