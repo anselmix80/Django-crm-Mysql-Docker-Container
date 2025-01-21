@@ -11,4 +11,9 @@ This is an implementation for [Django-CRM](https://github.com/DjangoCRM/django-c
 ## Installation instruction ##
 Clone or download the project and copy the docker folder inside Django-CRM project folder.
 
-Inside the docker folder run `./start_dev.sh` shell command
+Inside the docker folder run `./start_dev.sh` shell command, this include:
+- Clean up previous MySQL docker
+- Configure new Django-CRM container (also download mysql engine image)
+- Install all requirements for Django-CRM project
+- Setup all data inside DB
+- Start the application Django-CRM
